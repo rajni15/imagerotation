@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+
+
+}
+div{
+    border: 10px solid blueviolet;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+.img{
+   width: 350px;
+   height: 350px;
+   overflow: hidden;
+
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform .5s ease-in-out;
+    border-radius: 50%;
+
+
+}
+.img:hover{
+    transform: scale(1.5) rotate(25deg);
+}
